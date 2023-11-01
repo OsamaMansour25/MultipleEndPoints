@@ -1,4 +1,4 @@
-package api;
+package com.example.demo.api;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("api")
 public class DemoController {
 
 private final int SLEEP_TIME = 1000*3;
